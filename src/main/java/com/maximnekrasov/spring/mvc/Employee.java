@@ -1,16 +1,35 @@
 package com.maximnekrasov.spring.mvc;
 
+import javax.validation.constraints.Size;
 import java.util.HashMap;
 import java.util.Map;
 
 public class Employee {
-
+@Size(min = 2, message = "name must be min 2 symbols")
     private String name;
     private String surname;
     private int salary;
     private String department;
-private Map<String,String> departments;
-private  String car;
+    private Map<String,String> departments;
+    private  String car;
+    private  String[] languages;
+    private Map<String,String> languageList;
+
+    public Map<String, String> getLanguageList() {
+        return languageList;
+    }
+
+    public void setLanguageList(Map<String, String> languageList) {
+        this.languageList = languageList;
+    }
+
+    public String[] getLanguages() {
+        return languages;
+    }
+
+    public void setLanguages(String[] languages) {
+        this.languages = languages;
+    }
 
     public String getCar() {
         return car;
@@ -25,6 +44,11 @@ private  String car;
         departments.put("Information Technology", "IT");
         departments.put("Human Resources", "HR");
         departments.put("Sales", "Sales");
+
+        languageList = new HashMap<>();
+        languageList.put("EN", "English");
+        languageList.put("DE", "Deutsch");
+        languageList.put("FR", "French");
     }
 
     public Map<String, String> getDepartments() {
