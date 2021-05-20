@@ -10,6 +10,15 @@ public class Employee {
     private int salary;
     private String department;
 private Map<String,String> departments;
+private  String car;
+
+    public String getCar() {
+        return car;
+    }
+
+    public void setCar(String car) {
+        this.car = car;
+    }
 
     public Employee() {
         departments = new HashMap<>();

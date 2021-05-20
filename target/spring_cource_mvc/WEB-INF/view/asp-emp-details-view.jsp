@@ -27,6 +27,17 @@
 </form:select>
     <br><br>
 
+    <br><br>
+Which car do you want?
+    <br><br>
+    BMW <form:radiobutton path="car" value="BMW"/>
+    <br><br>
+    AUDI <form:radiobutton path="car" value="Audi"/>
+    <br><br>
+    LOTUS <form:radiobutton path="car" value="Lotus"/>
+
+    <br><br>
+
     <input type="submit" name="Ok">
 
 
