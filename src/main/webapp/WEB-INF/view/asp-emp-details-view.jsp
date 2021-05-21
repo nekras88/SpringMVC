@@ -16,8 +16,15 @@
     Surname <form:input path="surname"/>
     <form:errors path="surname"/>
     <br><br>
+    Phone number <form:input path="phoneNumber"/>
+    <form:errors path="phoneNumber"/>
+    <br><br>
     Salary <form:input path="salary"/>
-    <form:errors path="surname"/>
+    <form:errors path="salary"/>
+    <br><br>
+
+    Email <form:input path="email"/>
+    <form:errors path="email"/>
     <br><br>
 
 <%--    Hardcode--%>

@@ -1,4 +1,4 @@
-package com.maximnekrasov.spring.mvc;
+package com.maximnekrasov.spring.mvc.validation;
 
 
 import javax.validation.Constraint;

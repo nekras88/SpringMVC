@@ -18,11 +18,16 @@ Your name: ${employee.name}
 <br>
 Your surname: ${employee.surname}
 <br>
+Your phone: ${employee.phoneNumber}
+<br>
 Your salary: ${employee.salary}
 <br>
 Your department: ${employee.department}
 <br>
 Your car: ${employee.car}
+<br>
+
+Your email: ${employee.email}
 <br>
 Language(s):
 
